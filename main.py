@@ -25,6 +25,6 @@ def weather():
         #TITLE LIST
         list = content.find_all("title")
 
-        return list
+        return list[2].string
 
 print(weather())
